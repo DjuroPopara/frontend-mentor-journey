@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 3px white solid;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  display: block;
+  background-color: #f4d04e;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 340px;
+  margin: 80px auto;
+  background-color: white;
+  padding: 15px;
+  border: 1px black solid;
+  border-radius: 16px;
+  filter: drop-shadow(10px 10px);
+}
+
+.slika1 {
+  width: 98%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.learning_link {
+  background-color: #f4d04e;
+  color: black;
+  font-weight: bold;
+  width: 90px;
+  text-align: center;
+  display: inline-block;
+  padding: 6px 6px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.learning_link:hover {
+  background-color: black;
+  color: #f4d04e;
+}
+
+.headertext {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.mainparagraph {
+  color: #808080;
+  margin-bottom: 25px;
+  line-height: 25px;
+}
+
+.slika2 {
+  width: 48px;
+  display: inline;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}

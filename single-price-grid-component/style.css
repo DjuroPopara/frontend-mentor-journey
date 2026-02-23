@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla";
+  background-color: #e6eff6;
+}
+
+.card {
+  width: 620px;
+  margin: 130px auto;
+
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-top {
+  background-color: white;
+  padding: 30px;
+}
+.card-bottom {
+  display: flex;
+}
+
+.subscription {
+  background-color: #2bb3b0;
+  width: 50%;
+  padding: 40px;
+}
+
+.about {
+  background-color: #4cbfbd;
+  width: 50%;
+  padding: 40px;
+}
+
+.top-main-header {
+  color: #2bb3b0;
+  margin-bottom: 35px;
+}
+
+.top-header {
+  color: #bfde32;
+  margin-bottom: 15px;
+}
+
+.top-paragraph {
+  color: #99a7be;
+  line-height: 24px;
+}
+
+.subscription-header {
+  margin-bottom: 30px;
+  color: white;
+}
+
+.subscription-button {
+  background-color: #bfdf32;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  width: 100%;
+  height: 42px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.price {
+  margin-bottom: 10px;
+  color: white;
+  font-size: 30px;
+}
+
+.price-highlight {
+  color: #e6f0f5;
+  font-size: 15px;
+  font-weight: 200;
+  margin-left: 5px;
+}
+
+.subscription-paragraph {
+  margin-bottom: 40px;
+  color: white;
+}
+
+.about-header {
+  color: white;
+  margin-bottom: 30px;
+}
+.about-lists {
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+  list-style: none;
+}
+
+.subscription-button:hover {
+  background-color: white;
+  color: #bfde32;
+}
